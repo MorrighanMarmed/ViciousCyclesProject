@@ -13,20 +13,22 @@
 <img class="logo" src="images/vicious-cycles-logo.png" alt="vicious cycles logo">
    <nav>
        <ul class="nav_links">
-          <li><a href="#" target="_blank">Shop</a></li> 
-          <li><a href="#" target="_blank">Services</a></li> 
-          <li><a href="#" target="_blank">Events</a></li> 
-          <li><a href="#" target="_blank">Blog</a></li> 
-          <li><a href="#" target="_blank">About</a></li>  
-          <li><a href="#" target="_blank">Contact</a></li>
-        </ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Shop</a>
+            <div class="dropdown-content">
+                <a href="./html/custom.html">Custom Built</a>
+                <a href="./html/accessories.html">Accessories</a>
+            </div>
+        </li>
+        
+        <li><a href="./html/services.html">Services</a></li> 
+        <li><a href="./html/events.html">Events</a></li> 
+        <li><a href="./html/blog.html">Blog</a></li> 
+        <li><a href="./html/about.html">About</a></li>  
+        <li><a href=./html/contact.html">Contact</a></li>
+        </ul>  
    </nav>
-<!--This is the beginning of the hero image and H1 text-->
-  <div class="hero-image">
-       <div class="hero-text">
-           <h1>EXTREME CYCLING IN RALEIGH.</h1>
-       </div>
-   </div>
 </header>
 
 <main>
@@ -111,52 +113,13 @@
 </p>
 </section>
 
-<section>
-  <!--This is the beginning of the contact form-->
-  <h2>Contact Us</h2>
-  <p>We love our customers and want to provide the best experience. Please complete the short survey below.</p>
-  <form id="homepage"method="post" action="">
-    <label for="name">Full Name</label><input type="text" name="name" id="name"><br>
-    <label for="email">Email</label><input type="email" name="email" id="email"><br>
-    <label for="number">Telephone</label><input type="number" name="number" id="number"><br>
-   
-      <legend>What is your age range?</legend>
-    <label for="18-25">18-25</label><input type="radio" name="age" id="age"><br>
-    <label for="26-40">26-40</label><input type="radio" name="age" id="age"><br>
-    <label for="40+">40+</label><input type="radio" name="age" id="age"><br>
-
-    
-      <legend>What type of cyclist are you?</legend>
-    <label for="road cycling">Road Cycling</label><input type="checkbox" name="age" id="age"><br>
-    <label for="mountain biking">Mountain Biking</label><input type="checkbox" name="age" id="age"><br>
-    <label for="cyclocross">Cyclocross</label><input type="checkbox" name="age" id="age"><br>
-   
-
-    <label for="source">How did you hear about us?</label>
-    <select name="source" id="source">
-      <option value="web search">Web Search</option>
-      <option value="referral">Referral</option>
-      <option value="clicked an ad">Clicked an Ad</option>
-      <option value="mailer">Mailer</option>
-    </select>
-    <br> <br>
-    <label for="comments">Comments</label>
-    <textarea id="comments" name="comments"></textarea>
-    <br> <br>
-    <input type="submit">
-
-
-
-  </form>
-</section>
-
 <!--This is the beginning of the footer section-->
 <section>
   <div id="page-container">
     <div id="content-wrap">
       
       <footer>
-        <a href="https://www.titan.fitness/" target="_blank">CONTACT US</a>
+        <h2>CONTACT US</h2>>
         <ul>
           <li>Vicious Cycles</li>
           <li>1234 Commercial Drive</li>
